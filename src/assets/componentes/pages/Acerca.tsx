@@ -8,7 +8,7 @@ function Acerca({ volver }: AcercaProps) {
       {/* 🔥 HEADER igual que App.tsx */}
       <header>
         <img
-          src="/imgs/crustaceo-logo.jpg"
+          src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/crustaceo-logo.jpg?raw=true"
           alt="Logo Crustáceo Cascarudo"
           width="150"
           height="auto"
@@ -63,27 +63,24 @@ function Acerca({ volver }: AcercaProps) {
       </main>
 
       {/* 🔥 FOOTER igual que App.tsx */}
-      <footer>
-        <div className="footer-contenedor">
-          <div className="footer-redes">
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="/imgs/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/crustaceocascarudo8" target="_blank">
-              <img src="/imgs/instagram.png" alt="Instagram" />
-            </a>
-            <a
-              href="https://www.tiktok.com/@crustaceocascarudo_8?_t=ZS-90utZarsX0Z&_r=1"
-              target="_blank"
-            >
-              <img src="/imgs/tiktok.png" alt="TikTok" />
-            </a>
-          </div>
-          <p className="footer-texto">
-            © 2025 Crustáceo Cascarudo — De las brasas a tu paladar 🦀
-          </p>
-        </div>
-      </footer>
+          <footer>
+            <div className="footer-contenedor">
+              <div className="footer-redes">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/facebook.png?raw=true" alt="Facebook" />
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/instagram.png?raw=true" alt="Instagram" />
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/tiktok.png?raw=true" alt="TikTok" />
+                </a>
+              </div>
+              <p className="footer-texto">
+                © 2025 Crustáceo Cascarudo — De las brasas a tu paladar 🦀
+              </p>
+            </div>
+          </footer>
     </>
   )
 }
