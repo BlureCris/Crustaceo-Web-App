@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Pedido from './assets/componentes/pages/Pedido';
+import Pedido from './assets/componentes/pages/Pedido'
 import Acerca from './assets/componentes/pages/Acerca'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           {/* 🔥 HEADER */}
           <header>
             <img
-              src="/imgs/crustaceo-logo.jpg"
+              src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/crustaceo-logo.jpg?raw=true"
               alt="Logo del restaurante Crustáceo Cascarudo"
               width="235"
               height="200"
@@ -57,13 +57,13 @@ function App() {
             <div className="footer-contenedor">
               <div className="footer-redes">
                 <a href="https://www.facebook.com" target="_blank">
-                  <img src="/imgs/facebook.png" alt="Facebook" />
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/facebook.png?raw=true" alt="Facebook" />
                 </a>
                 <a href="https://www.instagram.com" target="_blank">
-                  <img src="/imgs/instagram.png" alt="Instagram" />
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/instagram.png?raw=true" alt="Instagram" />
                 </a>
                 <a href="https://www.tiktok.com" target="_blank">
-                  <img src="/imgs/tiktok.png" alt="TikTok" />
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/tiktok.png?raw=true" alt="TikTok" />
                 </a>
               </div>
               <p className="footer-texto">

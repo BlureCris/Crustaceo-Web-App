@@ -13,17 +13,17 @@ type PedidoProps = {
 }
 
 const productos: Producto[] = [
-  { nombre: 'Hamburguesa', precio: 48, img: '/imgs/Hamburguesa.jpg' },
-  { nombre: 'HotDog', precio: 45, img: '/imgs/HOTDOG.jpg' },
-  { nombre: 'Papas a la francesa', precio: 30, img: '/imgs/papas fritas.jpg' },
-  { nombre: 'Hamburguesa Especial', precio: 50, img: '/imgs/especial1.jpg' },
-  { nombre: 'Hot Dog especial', precio: 50, img: '/imgs/especial2.jpg' }
+  { nombre: 'Hamburguesa', precio: 48, img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/Hamburguesa.jpg?raw=true' },
+  { nombre: 'HotDog', precio: 45, img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/HOTDOG.jpg?raw=true' },
+  { nombre: 'Papas a la francesa', precio: 30, img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/papas%20fritas.jpg?raw=true' },
+  { nombre: 'Hamburguesa Especial', precio: 50, img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/especial1.jpg?raw=true' },
+  { nombre: 'Hot Dog especial', precio: 50, img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/especial2.jpg?raw=true' }
 ]
 
 const especiales = [
-  { img: '/imgs/especial1.jpg', texto: 'Hamburguesa Especial 😋🍔' },
-  { img: '/imgs/especial2.jpg', texto: 'Hot Dog especial delicioso 😍🌭' },
-  { img: '/imgs/especial3.jpg', texto: 'Papas fritas a tan solo 45 pesos 🦀🍟' }
+  { img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/especial1.jpg?raw=true', texto: 'Hamburguesa Especial 😋🍔' },
+  { img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/especial2.jpg?raw=true', texto: 'Hot Dog especial delicioso 😍🌭' },
+  { img: 'https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/especial3.jpg?raw=true', texto: 'Papas fritas a tan solo 45 pesos 🦀🍟' }
 ]
 
 function Pedido({ volver, irAcerca }: PedidoProps) {
@@ -78,7 +78,7 @@ function Pedido({ volver, irAcerca }: PedidoProps) {
     <>
       <header>
         <img
-          src="/imgs/crustaceo-logo.jpg"
+          src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/crustaceo-logo.jpg?raw=true"
           alt="Logo del restaurante Crustáceo Cascarudo"
           width="235"
           height="200"
@@ -157,24 +157,24 @@ function Pedido({ volver, irAcerca }: PedidoProps) {
         </div>
       )}
 
-      <footer>
-        <div className="footer-contenedor">
-          <div className="footer-redes">
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="/imgs/facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-              <img src="/imgs/instagram.png" alt="Instagram" />
-            </a>
-            <a href="https://www.tiktok.com" target="_blank">
-              <img src="/imgs/tiktok.png" alt="TikTok" />
-            </a>
-          </div>
-          <p className="footer-texto">
-            © 2025 Crustáceo Cascarudo — De las brasas a tu paladar 🦀
-          </p>
-        </div>
-      </footer>
+          <footer>
+            <div className="footer-contenedor">
+              <div className="footer-redes">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/facebook.png?raw=true" alt="Facebook" />
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/instagram.png?raw=true" alt="Instagram" />
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                  <img src="https://github.com/BlureCris/Crustaceo-Web-App/blob/main/public/imgs/tiktok.png?raw=true" alt="TikTok" />
+                </a>
+              </div>
+              <p className="footer-texto">
+                © 2025 Crustáceo Cascarudo — De las brasas a tu paladar 🦀
+              </p>
+            </div>
+          </footer>
     </>
   )
 }
